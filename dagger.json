@@ -1,0 +1,28 @@
+{
+  "name": "ha_addon-joplin_server",
+  "engineVersion": "v0.15.1",
+  "sdk": "go",
+  "dependencies": [
+    {
+      "name": "docker",
+      "source": "github.com/juli3nk/daggerverse/docker",
+      "pin": "27aaa3d3f83cb11ca15b56ce9fa7f2303875fdbc"
+    },
+    {
+      "name": "commitlint",
+      "source": "github.com/cloudnative-pg/daggerverse/commitlint",
+      "pin": "b8e24f5ad3e7da6dce9f6f9edd93baf165f3106a"
+    },
+    {
+      "name": "gitlocal",
+      "source": "github.com/juli3nk/daggerverse/gitlocal",
+      "pin": "b9c3a57318c539b2c85a1a360b239089210e66cf"
+    },
+    {
+      "name": "jsonfile",
+      "source": "github.com/juli3nk/daggerverse/jsonfile",
+      "pin": "a037fcd96bf70a44cc8203b2717b49e380063580"
+    }
+  ],
+  "source": ".dagger"
+}
